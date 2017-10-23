@@ -1,0 +1,20 @@
+
+
+img, p, video {
+    display: none;
+ }
+ @media screen and (min-width: 300px) and (orientation: portrait) {
+     img {
+        display: block;
+     }
+ }
+ @media screen and (device-aspect-ratio: 4/3) {
+    p {
+       display: block;
+    }
+}
+    @media screen and (min-width: 300px) and (max-width: 700px) {
+        video {
+           display: block;
+        }
+}
